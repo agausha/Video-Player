@@ -108,4 +108,8 @@ select option {
   margin-right: 15px;
   color: hsl(0deg, 0%, 100%);
   font-weight: bold;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }/*# sourceMappingURL=main.css.map */
