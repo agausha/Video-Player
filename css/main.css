@@ -88,4 +88,5 @@ body {
 select {
   background: transparent;
   color: hsl(0deg, 0%, 100%);
+  border: none;
 }/*# sourceMappingURL=main.css.map */
