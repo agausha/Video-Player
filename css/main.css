@@ -27,6 +27,7 @@ body {
 
 .player {
   max-width: 80vw;
+  min-width: 800px;
 }
 
 .show-controls {
