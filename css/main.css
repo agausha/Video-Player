@@ -47,4 +47,8 @@ body {
 .show-controls:hover .controls-container {
   opacity: 1;
   transition: all 0.2s ease-out;
+}
+
+.control-group {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
