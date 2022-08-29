@@ -64,4 +64,9 @@ body {
 .controls-right {
   justify-content: flex-end;
   margin-right: 15px;
+}
+
+.controls-left,
+.controls-right {
+  flex: 1;
 }/*# sourceMappingURL=main.css.map */
