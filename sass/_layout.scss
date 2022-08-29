@@ -80,4 +80,6 @@ select {
   top: -2.5px;
   border-radius: 5px;
   cursor: pointer;
+
+  &:focus {}
 }
