@@ -94,4 +94,7 @@ select {
   top: -2.5px;
   border-radius: 5px;
   cursor: pointer;
+}
+select:focus {
+  outline: none;
 }/*# sourceMappingURL=main.css.map */
