@@ -11,3 +11,13 @@ $color-primary-bg-5: hsla(0, 0%, 0%, 0.9);
 /////////////////////////////////////////
 // FONT COLOR
 $font-color: hsl(0, 0%, 100%);
+
+/////////////////////////////////////////
+// CSS RESET
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
