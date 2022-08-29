@@ -73,4 +73,9 @@ body {
   overflow: hidden;
   position: relative;
   top: 40px;
+}
+
+.speed,
+.time {
+  position: relative;
 }/*# sourceMappingURL=main.css.map */
