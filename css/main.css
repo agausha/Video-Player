@@ -38,4 +38,6 @@ body {
   background: hsla(0deg, 0%, 0%, 0.5);
   box-sizing: border-box;
   z-index: 5;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
