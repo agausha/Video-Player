@@ -54,4 +54,9 @@ body {
   height: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.controls-left {
+  justify-content: flex-start;
+  margin-left: 15px;
 }/*# sourceMappingURL=main.css.map */

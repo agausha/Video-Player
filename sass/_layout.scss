@@ -38,4 +38,7 @@
 
 /////////////////////////////////////////
 // LEFT CONTROLS
-.controls-left {}
+.controls-left {
+  justify-content: flex-start;
+  margin-left: 15px;
+}
