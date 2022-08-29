@@ -32,6 +32,7 @@ body {
   border-radius: 10px;
   background: hsl(0deg, 0%, 0%);
   position: relative;
+  cursor: pointer;
 }
 
 .show-controls {
