@@ -20,6 +20,10 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+.fas {
+  color: hsl(0deg, 0%, 100%);
+}
+
 .show-controls {
   width: 100%;
   height: 30%;
