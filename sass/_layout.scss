@@ -112,3 +112,16 @@ select {
   top: 50%;
   transform: translateY(-50%);
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SAMRTPHONE (VERTICAL)
+@media screen and (max-width: 600px) {
+  .controls-container {
+    height: 50px;
+  }
+
+  .control-group {
+    position: relative;
+    top: -25px;
+  }
+}

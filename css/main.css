@@ -122,4 +122,14 @@ select option {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+@media screen and (max-width: 600px) {
+  .controls-container {
+    height: 50px;
+  }
+  .control-group {
+    position: relative;
+    top: -25px;
+  }
 }/*# sourceMappingURL=main.css.map */
