@@ -100,4 +100,5 @@ select:focus {
 }
 select option {
   background: hsla(0deg, 0%, 0%, 0.9);
+  border: none;
 }/*# sourceMappingURL=main.css.map */
