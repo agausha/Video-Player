@@ -27,4 +27,8 @@ body {
   position: absolute;
   bottom: 0;
   cursor: default;
+}
+
+.controls-container {
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */
