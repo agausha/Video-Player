@@ -22,6 +22,7 @@ body {
 
 .fas {
   color: hsl(0deg, 0%, 100%);
+  font-size: 35px;
 }
 
 .show-controls {
