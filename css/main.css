@@ -121,4 +121,5 @@ select option {
 .video-fullscreen {
   position: relative;
   top: 50%;
+  transform: translateY(-50%);
 }/*# sourceMappingURL=main.css.map */
