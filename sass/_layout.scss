@@ -85,5 +85,7 @@ select {
     outline: none;
   }
 
-  option {}
+  option {
+    background: $color-primary-bg-5;
+  }
 }
