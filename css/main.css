@@ -28,6 +28,7 @@ body {
 .player {
   max-width: 80vw;
   min-width: 800px;
+  border: 5px solid hsl(0deg, 0%, 0%);
 }
 
 .show-controls {
