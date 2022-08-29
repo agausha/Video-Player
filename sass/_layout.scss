@@ -45,4 +45,7 @@
 
 /////////////////////////////////////////
 // RIGHT CONTROLS
-.controls-right {}
+.controls-right {
+  justify-content: flex-end;
+  margin-right: 15px;
+}
