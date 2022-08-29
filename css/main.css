@@ -83,4 +83,8 @@ body {
 
 .speed {
   margin-right: 15px;
+}
+
+select {
+  background: transparent;
 }/*# sourceMappingURL=main.css.map */
