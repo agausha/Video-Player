@@ -69,4 +69,5 @@ body {
 .controls-left,
 .controls-right {
   flex: 1;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
