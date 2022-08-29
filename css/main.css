@@ -112,4 +112,8 @@ select option {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.fullscreen {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
