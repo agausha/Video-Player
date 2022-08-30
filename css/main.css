@@ -86,6 +86,7 @@ video {
   border-radius: 10px;
   position: relative;
   top: -21px;
+  left: 50px;
 }
 
 .show-controls {
