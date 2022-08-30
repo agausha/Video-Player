@@ -72,6 +72,7 @@ video {
 .fa-play:hover,
 .fa-pause:hover {
   color: hsl(210deg, 100%, 56%);
+  cursor: pointer;
 }
 
 .show-controls {
