@@ -43,6 +43,7 @@ video {
 
 .progress-range {
   height: 8px;
+  width: calc(100% - 30px);
 }
 
 .show-controls {
