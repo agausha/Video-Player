@@ -46,6 +46,7 @@ video {
   width: calc(100% - 30px);
   background: hsla(0deg, 0%, 79%, 0.5);
   margin: auto;
+  border-radius: 10px;
 }
 
 .show-controls {
