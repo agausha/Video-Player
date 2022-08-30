@@ -61,6 +61,7 @@ video {
   background: hsl(210deg, 100%, 56%);
   width: 20%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .show-controls {
