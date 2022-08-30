@@ -81,5 +81,7 @@ video {
   border-radius: $border--radius;
   transition: width 0.2s ease-in;
 
-  &:hover {}
+  &:hover {
+    background: $color-primary;
+  }
 }
