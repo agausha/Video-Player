@@ -44,6 +44,7 @@ video {
 .progress-range {
   height: 8px;
   width: calc(100% - 30px);
+  background: hsla(0deg, 0%, 79%, 0.5);
 }
 
 .show-controls {
