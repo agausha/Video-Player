@@ -59,6 +59,7 @@ video {
 
 .progress-bar {
   background: hsl(210deg, 100%, 56%);
+  width: 20%;
 }
 
 .show-controls {
