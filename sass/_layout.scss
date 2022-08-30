@@ -78,7 +78,7 @@ select {
   font-size: 18px;
   position: relative;
   top: -2.5px;
-  border-radius: 5px;
+  border-radius: $border--radius-1;
   cursor: pointer;
 
   &:focus {
