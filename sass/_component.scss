@@ -85,3 +85,45 @@ video {
     background: $color-primary;
   }
 }
+
+/////////////////////////////////////////
+// MEDIA QUERY: LARGE SAMRTPHONE (VERTICAL)
+@media screen and (max-width: 600px) {
+  .player {
+    min-width: 0;
+    max-width: 95vw;
+  }
+
+  .fas {
+    font-size: 20px;
+  }
+  .progress-range {
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+  }
+
+  .progress-bar {
+    border-radius: 0;
+  }
+
+  .volume-range {
+    width: 50px;
+    left: 30px;
+    top: -15px;
+  }
+
+  .speed,
+  .time {
+    top: 3px;
+  }
+
+  select {
+    font-size: 12px;
+  }
+
+  .time {
+    font-size: 12px;
+  }
+}
