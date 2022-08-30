@@ -47,6 +47,7 @@ video {
   background: hsla(0deg, 0%, 79%, 0.5);
   margin: auto;
   border-radius: 10px;
+  position: absolute;
 }
 
 .show-controls {
