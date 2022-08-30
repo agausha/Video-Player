@@ -48,6 +48,8 @@ video {
   margin: auto;
   border-radius: 10px;
   position: absolute;
+  left: 15px;
+  top: 15px;
 }
 
 .show-controls {
