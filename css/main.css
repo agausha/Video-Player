@@ -53,7 +53,6 @@ video {
   cursor: pointer;
   transition: height 0.1s ease-in-out;
 }
-
 .show-controls {
   width: 100%;
   height: 30%;
