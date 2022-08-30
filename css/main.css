@@ -89,6 +89,10 @@ video {
   left: 50px;
 }
 
+.volume-bar {
+  background: hsl(0deg, 0%, 100%);
+}
+
 .show-controls {
   width: 100%;
   height: 30%;
