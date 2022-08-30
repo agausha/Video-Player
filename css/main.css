@@ -53,6 +53,10 @@ video {
   cursor: pointer;
   transition: height 0.1s ease-in-out;
 }
+.progress-range:hover {
+  height: 10px;
+}
+
 .show-controls {
   width: 100%;
   height: 30%;
