@@ -69,6 +69,11 @@ video {
   margin-right: 15px;
 }
 
+.fa-play:hover,
+.fa-pause:hover {
+  color: hsl(210deg, 100%, 56%);
+}
+
 .show-controls {
   width: 100%;
   height: 30%;
