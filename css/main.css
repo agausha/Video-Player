@@ -85,6 +85,7 @@ video {
   background: hsla(0deg, 0%, 27%, 0.5);
   border-radius: 10px;
   position: relative;
+  top: -21px;
 }
 
 .show-controls {
