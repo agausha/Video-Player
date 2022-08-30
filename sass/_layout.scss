@@ -95,7 +95,7 @@ select {
 /////////////////////////////////////////
 // ELAPSED TIME & DURATION
 .time {
-  margin-right: 15px;
+  margin-right: $mg-right;
   color: $font-color;
   font-weight: bold;
   user-select: none;
