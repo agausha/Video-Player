@@ -87,6 +87,7 @@ video {
   position: relative;
   top: -21px;
   left: 50px;
+  cursor: pointer;
 }
 
 .volume-bar {
