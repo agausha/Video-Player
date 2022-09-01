@@ -94,6 +94,7 @@ function changeVolume(e) {
   } else if (volume === 0) {
     volumeIcon.classList.add('fas', 'fa-volume-off');
   }
+  lastVolume = volume;
 }
 
 // Event Listeners
