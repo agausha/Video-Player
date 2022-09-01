@@ -98,7 +98,9 @@ function changeVolume(e) {
 }
 
 // Change Playback Speed 
-function changeSpeed() {}
+function changeSpeed() {
+  video.playbackRate = speed.value;
+}
 
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
