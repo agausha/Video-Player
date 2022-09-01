@@ -31,6 +31,8 @@ function togglePlay() {
 // On video end, show play button icon
 video.addEventListener('ended', showPlayIcon);
 
+function displayTime(time) {}
+
 // Update progress bar as video plays
 function updateProgress() {
   progressBar.style.width = `${(video.currentTime / video.duration) * 100}%`;
