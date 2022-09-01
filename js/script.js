@@ -28,6 +28,9 @@ function togglePlay() {
   }
 }
 
+// On video end, show play button icon
+video.addEventListener('ended', showPlayIcon);
+
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
