@@ -137,6 +137,8 @@ function closeFullscreen() {
   video.classList.remove('video-fullscreen');
 }
 
+let fullscreen = false;
+
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
