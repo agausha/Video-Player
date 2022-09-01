@@ -12,7 +12,10 @@ const duration = document.querySelector('.time-duration');
 const fullscreenBtn = document.querySelector('.fullscreen');
 
 // Play & Pause
-function showPlayIcon() {}
+function showPlayIcon() {
+  playBtn.classList.replace('fa-pause', 'fa-play');
+  playBtn.setAttribute('title', 'Play');
+}
 
 function togglePlay() {
   if (video.paused) {
