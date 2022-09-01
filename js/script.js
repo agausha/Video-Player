@@ -31,7 +31,13 @@ function togglePlay() {
 // On video end, show play button icon
 video.addEventListener('ended', showPlayIcon);
 
-function displayTime(time) {}
+// Format current time, duration
+function displayTime(time) {
+  const minutes = Math.floor(time / 60);
+  let seconds = Math.floor(time % 60);
+  seconds = seconds > 9 ? seconds : `0${seconds}`;
+  return `${minutes}:${seconds}`;
+}
 
 // Update progress bar as video plays
 function updateProgress() {
