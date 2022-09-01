@@ -102,6 +102,10 @@ function changeSpeed() {
   video.playbackRate = speed.value;
 }
 
+// Fullscreen
+// View in fullscreen 
+function openFullscreen(element)
+
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
