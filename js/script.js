@@ -97,6 +97,9 @@ function changeVolume(e) {
   lastVolume = volume;
 }
 
+// Change Playback Speed 
+function changeSpeed() {}
+
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
