@@ -47,7 +47,11 @@ function updateProgress() {
 }
 
 // Click to seek within the video
-function setProgress(e) {}
+function setProgress(e) {
+  const newTime = e.offsetX / progressRange.offsetWidth;
+  progressBar.style.width = `${newTime * 100}%`;
+  video.currentTime = newTime * video.duration;
+}
 
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
