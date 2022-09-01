@@ -34,3 +34,4 @@ video.addEventListener('ended', showPlayIcon);
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
+video.addEventListener('timeupdate', updateProgress);
