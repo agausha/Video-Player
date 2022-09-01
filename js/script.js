@@ -21,3 +21,6 @@ function togglePlay() {
     video.pause();
   }
 }
+
+// Event Listeners
+playBtn.addEventListener('click', togglePlay);
