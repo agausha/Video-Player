@@ -54,7 +54,7 @@ function setProgress(e) {
 }
 
 // Volume Controls
-
+let lastVolume = 1;
 // Volume Bar
 function changeVolume(e) {
   let volume = e.offsetX / volumeRange.offsetWidth;
