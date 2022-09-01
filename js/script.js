@@ -103,7 +103,7 @@ function changeSpeed() {
 }
 
 // Fullscreen
-// View in fullscreen 
+/* View in fullscreen */
 function openFullscreen(element) {
   if (element.requestFullscreen) {
     element.requestFullscreen();
@@ -119,6 +119,9 @@ function openFullscreen(element) {
   }
   video.classList.add('video-fullscreen');
 }
+
+/* Close fullscreen */
+function closeFullscreen() {}
 
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
