@@ -53,6 +53,11 @@ function setProgress(e) {
   video.currentTime = newTime * video.duration;
 }
 
+// Volume Controls
+
+// Volume Bar
+function changeVolume(e) {}
+
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
