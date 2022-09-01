@@ -10,3 +10,6 @@ const speed = document.querySelector('.player-speed');
 const currentTime = document.querySelector('.time-elapsed');
 const duration = document.querySelector('.time-duration');
 const fullscreenBtn = document.querySelector('.fullscreen');
+
+// Play & Pause
+function togglePlay() {}
