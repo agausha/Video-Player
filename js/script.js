@@ -139,6 +139,9 @@ function closeFullscreen() {
 
 let fullscreen = false;
 
+// Toggle fullscreen
+function toggleFullscreen() {}
+
 // Event Listeners
 playBtn.addEventListener('click', togglePlay);
 video.addEventListener('click', togglePlay);
